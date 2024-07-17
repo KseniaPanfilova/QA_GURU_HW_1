@@ -12,7 +12,7 @@ def is_pangram(text):
 
 
 # считываем данные
-text = input()
+text = input('Enter your text: ')
 
 # вызываем функцию
 print(is_pangram(text))
